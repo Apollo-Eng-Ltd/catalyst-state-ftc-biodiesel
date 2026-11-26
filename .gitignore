@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+slprj/
+*.slxc
+*.asv
+
+# generated datasets (rebuild with faults/generate_dataset.py and control/gen_excitation.py)
+data/*.npz
+data/*.mat
+data/*_ts.csv.gz
+estimator/ekf_test_*.npz
+figures/paper/
