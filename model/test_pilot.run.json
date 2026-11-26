@@ -1,0 +1,32 @@
+{
+ "charge": {
+  "V_L": 823.3,
+  "H_m": 1.048,
+  "A_m2": 4.14,
+  "UA_W_K": 1657.0,
+  "V_J_L": 207.1,
+  "rho_cp_J_LK": 1916.0
+ },
+ "heatup_25_to_60C_min": 41.0,
+ "heatup_energy_closure_rel": -5.15e-15,
+ "nominal_TJin_range_C": [
+  35.8,
+  80.0
+ ],
+ "nominal_SWVO": {
+  "peak_XE": 97.05,
+  "t_peak": 44.0,
+  "on_spec_window_min": [
+   29.5,
+   71.0
+  ],
+  "T_max_C": 63.53,
+  "T_end_C": 60.0
+ },
+ "invariants_pilot": {
+  "glyceride": 4.5e-13,
+  "chain": -1.8e-12,
+  "potassium": 8.5e-14
+ },
+ "side_heat_crude_upper_bound_worst_case": 1.507
+}
