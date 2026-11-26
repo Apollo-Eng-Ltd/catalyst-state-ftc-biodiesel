@@ -1,0 +1,9 @@
+Symbol,Measurement,Noise (1σ)
+T,Reactor temperature (+ bias under E4),0.05 K
+T_J,Jacket outlet temperature,0.05 K
+T_Jin,Jacket inlet (TCU outlet) temperature,0.05 K
+T_cmd,TCU set-point from the controller,exact
+Q_J,Jacket duty from flow and temperatures,from noisy T
+P_st,Stirrer power,2 % of P0
+pH,Apparent pH of the methanol/ester phase,0.02
+m_ld,Load-cell mass of contents,0.2 kg

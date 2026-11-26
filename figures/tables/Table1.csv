@@ -1,0 +1,21 @@
+Parameter,Value,Unit,Note,Source
+k1 (50 °C),0.050,L mol⁻¹ min⁻¹,Ea 55.0 kJ mol⁻¹,Noureddini and Zhu (1997)
+k2 (50 °C),0.110,L mol⁻¹ min⁻¹,Ea 41.6 kJ mol⁻¹,Noureddini and Zhu (1997)
+k3 (50 °C),0.215,L mol⁻¹ min⁻¹,Ea 83.1 kJ mol⁻¹,Noureddini and Zhu (1997)
+k4 (50 °C),1.228,L mol⁻¹ min⁻¹,Ea 61.2 kJ mol⁻¹,Noureddini and Zhu (1997)
+k5 (50 °C),0.242,L mol⁻¹ min⁻¹,Ea 26.9 kJ mol⁻¹,Noureddini and Zhu (1997)
+k6 (50 °C),0.007,L mol⁻¹ min⁻¹,Ea 40.1 kJ mol⁻¹,Noureddini and Zhu (1997)
+"a, catalyst activity factor (vegetable oils)",0.482,–,"[0.311, 0.749]","fitted, our previous experimental study (n = 32)"
+"a, catalyst activity factor (Jatropha)",0.0576,–,,fitted (n = 15)
+"c_th, inactive base threshold",0.0486,mol L⁻¹,"[0.0388, 0.0584]",fitted
+"k_H, methoxide → hydroxide",0.00839,min⁻¹,"[0.00635, 0.01108]",fitted
+"k_SE, FAME saponification (60 °C)",0.032,L mol⁻¹ min⁻¹,Ea 62 kJ mol⁻¹,Eze et al. (2015)
+"ΔH, transesterification",−9.8,kJ mol⁻¹ ester,,Fjerbaek Sotoft et al. (2010)
+"ΔH, neutralisation and saponification (sensitivity case)",−57.3,kJ mol⁻¹,,Wadsö and Karlsson (2013)
+Oil charge,600,kg,,design
+Vessel diameter,1.0,m,,design
+"U, heating / cooling",400 / 350,W m⁻² K⁻¹,,"Thermopedia, agitated vessels"
+Jacket flow,150,L min⁻¹,,design
+TCU inlet range,25–80,°C,,design
+cp oil / cp methanol,2.038 / 2.69,kJ kg⁻¹ K⁻¹,,Garcia Rojas et al. (2013); NIST
+PI controller Kc / τI,6 / 8,– / min,back-calculation anti-windup,tuned

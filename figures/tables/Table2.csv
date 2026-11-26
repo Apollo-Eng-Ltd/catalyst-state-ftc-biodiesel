@@ -1,0 +1,8 @@
+Class,Fault,Magnitude at severity s,Timing
+F1,Acid value above certificate,ΔAV = 0.5 + 3.5 s mg KOH g⁻¹,in charge
+F2,Water ingress,(0.02 + 0.28 s) wt% of oil per 10 min,in batch
+F3,Degraded feedstock activity,a × (1 − 0.85 s),in charge
+E1,Jacket TCU degradation,φ = 1 − 0.9 s,in batch
+E2,Agitation loss,N/N0 = 1 − 0.8 s; P ∝ N³,in batch
+E3,Methanol loss (condenser),(0.002 + 0.028 s) n_A min⁻¹,in batch
+E4,Reactor T sensor bias,± (0.5 + 3.5 s) K,in batch

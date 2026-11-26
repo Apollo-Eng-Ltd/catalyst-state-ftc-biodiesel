@@ -1,0 +1,7 @@
+Controller,"On spec, %","Margin, USD per batch","Production efficiency, USD per reactor hour",Break-even discount d*
+"FT-NMPC, rule v2",95.8,576,300,–
+"EKF-NMPC, rule v2",95.0,575,298,0 (v2 higher at any d)
+"FT-NMPC, rule v1",90.8,568,311,0.83
+Nominal NMPC,87.9,564,306,0.41
+"PI, stop at 35 min",86.7,570,273,0 (v2 higher at any d)
+"PI, stop at 60 min",82.5,561,224,0 (v2 higher at any d)

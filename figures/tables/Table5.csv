@@ -1,0 +1,8 @@
+Estimator,"Interp X_E RMSE, points","Interp catalyst, % of base",Extrap X_E,Extrap catalyst,Jatropha X_E,Jatropha activity RMSE
+"Causal GRU, data only",0.61,3.0,2.18,3.6,9.13,0.23
+"Causal GRU, 10 % of labels",0.83,5.1,2.38,5.5,9.42,0.266
+"Physics-informed GRU, nominal constants",1.73–2.00,6.0–6.2,2.94–3.40,6.5,12.0–13.1,0.671
+"Physics-informed GRU, constants estimated",1.78,4.9,4.34,5.5,17.07,0.827
+"EKF, same model",2.47,11.0,10.69,12.8,40.48,0.349
+"Data GRU + unlabelled adaptation, measurement terms",1.39,4.9,2.35,5.1,7.96,0.306
+"Data GRU + unlabelled adaptation, physics + measurement",3.47,10.2,3.22,9.9,7.09,0.045
