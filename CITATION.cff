@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite it as below."
+title: "Online active-catalyst estimation and fault-tolerant nonlinear model predictive control for batch biodiesel production: code and data"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/Apollo-Eng-Ltd/catalyst-state-ftc-biodiesel"
+abstract: >-
+  Code and data for a simulation study of a K2CO3-catalysed batch
+  transesterification reactor with feedstock and equipment faults: the plant
+  model and its fit to experimental yields, the fault dataset, fault detection
+  and classification, a recurrent catalyst-state estimator with an EKF
+  baseline, an economic NMPC with a split-conformal stop rule, the Monte Carlo
+  comparison and a Simulink version of the closed loop.
+keywords:
+  - biodiesel
+  - catalyst-state estimation
+  - fault-tolerant control
+  - nonlinear model predictive control
+  - conformal prediction
+  - Simulink
+authors:
+  - family-names: Mensah
+    given-names: Joseph Mawulorm
+    affiliation: "Department of Chemical Engineering, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana"
+  - family-names: Boakye
+    given-names: Patrick
+    affiliation: "Department of Chemical Engineering, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana"
+  - family-names: Boadi
+    given-names: David
+    affiliation: "Canada Revenue Agency, Cochrane, Alberta, Canada"
+  - family-names: Kornyo
+    given-names: Oliver
+    affiliation: "Department of Computer Science, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana"
+  - family-names: Ohemeng-Boahen
+    given-names: Godfred
+    affiliation: "Department of Chemical Engineering, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana"
+  - family-names: Boakye
+    given-names: Clement
+    affiliation: "Department of Chemical Engineering, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana"
+  - family-names: Obeng-Yeboah
+    given-names: Gabriel
+    affiliation: "Department of Chemical Engineering, Kwame Nkrumah University of Science and Technology, Kumasi, Ghana"
+  - family-names: Ampomah
+    given-names: William
+    affiliation: "Petroleum Recovery Research Center, New Mexico Institute of Mining and Technology, Socorro, New Mexico, USA"
+  - family-names: Mensah
+    given-names: Patrick F.
+    affiliation: "Department of Mechanical Engineering, Louisiana State University, Baton Rouge, Louisiana, USA"
