@@ -1,0 +1,181 @@
+{
+ "step": "phase2_dataset",
+ "run_utc": "2026-11-17T08:04:27.470472+00:00",
+ "n_train_per_class": 250,
+ "n_test_per_class": 80,
+ "dt": 0.25,
+ "measured": [
+  "T",
+  "T_J",
+  "T_Jin",
+  "T_cmd",
+  "Q_J",
+  "P_st",
+  "pH",
+  "m_ld"
+ ],
+ "truth": [
+  "X_E",
+  "cat_act",
+  "OH",
+  "FFA",
+  "W",
+  "A",
+  "fault_active"
+ ],
+ "classes": [
+  "N",
+  "F1",
+  "F2",
+  "F3",
+  "E1",
+  "E2",
+  "E3",
+  "E4"
+ ],
+ "severity_bands": {
+  "train": [
+   [
+    0.0,
+    0.2
+   ],
+   [
+    0.2,
+    0.4
+   ],
+   [
+    0.6,
+    0.8
+   ]
+  ],
+  "test_interp": [
+   [
+    0.4,
+    0.6
+   ]
+  ],
+  "test_extrap": [
+   [
+    0.8,
+    1.0
+   ]
+  ]
+ },
+ "onset_windows": {
+  "train": [
+   [
+    5,
+    35
+   ],
+   [
+    50,
+    70
+   ]
+  ],
+  "test_interp": [
+   [
+    35,
+    50
+   ]
+  ],
+  "test_extrap": [
+   [
+    70,
+    90
+   ]
+  ]
+ },
+ "seconds": 130.1,
+ "splits": {
+  "train": {
+   "n": 2250,
+   "failed": 0,
+   "fail_examples": [],
+   "per_class": {
+    "N": 500,
+    "F1": 250,
+    "F2": 250,
+    "F3": 250,
+    "E1": 250,
+    "E2": 250,
+    "E3": 250,
+    "E4": 250
+   },
+   "on_spec_frac_by_class": {
+    "E1": 0.988,
+    "E2": 0.968,
+    "E3": 0.972,
+    "E4": 0.992,
+    "F1": 0.96,
+    "F2": 0.944,
+    "F3": 0.736,
+    "N": 0.998
+   },
+   "sha1": "cadab89f6fae52655d032add147c7bc9726411c8"
+  },
+  "test_interp": {
+   "n": 640,
+   "failed": 0,
+   "fail_examples": [],
+   "per_class": {
+    "N": 80,
+    "F1": 80,
+    "F2": 80,
+    "F3": 80,
+    "E1": 80,
+    "E2": 80,
+    "E3": 80,
+    "E4": 80
+   },
+   "on_spec_frac_by_class": {
+    "E1": 1.0,
+    "E2": 0.988,
+    "E3": 1.0,
+    "E4": 0.988,
+    "F1": 0.975,
+    "F2": 1.0,
+    "F3": 0.738,
+    "N": 1.0
+   },
+   "sha1": "5210310be30a067f043021be6bae5fa34d316b26"
+  },
+  "test_extrap": {
+   "n": 640,
+   "failed": 0,
+   "fail_examples": [],
+   "per_class": {
+    "N": 80,
+    "F1": 80,
+    "F2": 80,
+    "F3": 80,
+    "E1": 80,
+    "E2": 80,
+    "E3": 80,
+    "E4": 80
+   },
+   "on_spec_frac_by_class": {
+    "E1": 0.988,
+    "E2": 0.975,
+    "E3": 0.975,
+    "E4": 1.0,
+    "F1": 0.925,
+    "F2": 0.988,
+    "F3": 0.05,
+    "N": 1.0
+   },
+   "sha1": "cb9dd0aaf3123a898c802a421ffb375e09a02c11"
+  },
+  "test_jco": {
+   "n": 80,
+   "failed": 0,
+   "fail_examples": [],
+   "per_class": {
+    "F3": 80
+   },
+   "on_spec_frac_by_class": {
+    "F3": 0.0
+   },
+   "sha1": "0696c49470d1b1e8891d98608547647a487dc9d2"
+  }
+ }
+}

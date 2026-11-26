@@ -1,0 +1,23 @@
+{
+ "run_utc": "2026-11-17T11:53:28.080424+00:00",
+ "splits": {
+  "train": {
+   "n": 2250,
+   "failed": 0,
+   "fail_examples": [],
+   "T_over_64p7": 7
+  },
+  "test_interp": {
+   "n": 640,
+   "failed": 0,
+   "fail_examples": [],
+   "T_over_64p7": 0
+  },
+  "test_extrap": {
+   "n": 640,
+   "failed": 0,
+   "fail_examples": [],
+   "T_over_64p7": 13
+  }
+ }
+}

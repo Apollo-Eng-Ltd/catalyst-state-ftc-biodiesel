@@ -1,0 +1,137 @@
+{
+ "step": "phase1_step1_extract",
+ "run_utc": "2026-11-16T09:03:55.044617+00:00",
+ "source": "Boakye P. (2013) KNUST, Tables 6-10 and Appendix B",
+ "n_points": 54,
+ "n_usable": 50,
+ "tcrit": 4.302652729749462,
+ "oils": {
+  "CSFO": {
+   "name": "Cottonseed fresh oil",
+   "AV": 0.452,
+   "FFA": 0.227,
+   "MW": 848.3
+  },
+  "SBFO": {
+   "name": "Soya bean fresh oil",
+   "AV": 0.396,
+   "FFA": 0.199,
+   "MW": 874.0
+  },
+  "BFVO": {
+   "name": "Blend of fresh veg. oils",
+   "AV": 0.441,
+   "FFA": 0.222,
+   "MW": NaN
+  },
+  "CWVO": {
+   "name": "Cottonseed waste veg. oil",
+   "AV": 0.92,
+   "FFA": 0.462,
+   "MW": 848.3
+  },
+  "SWVO": {
+   "name": "Soya bean waste veg. oil",
+   "AV": 1.088,
+   "FFA": 0.547,
+   "MW": 874.0
+  },
+  "BWVO": {
+   "name": "Blend of waste veg. oils",
+   "AV": 1.017,
+   "FFA": 0.511,
+   "MW": NaN
+  },
+  "JCO": {
+   "name": "Jatropha curcas oil (esterified)",
+   "AV": 2.606,
+   "FFA": 1.31,
+   "MW": 870.0
+  }
+ },
+ "reproducibility": [
+  {
+   "oil": "CWVO",
+   "ratio": 6,
+   "T": 60,
+   "t": 40,
+   "tables": [
+    "9/B.3",
+    "10/B.3"
+   ],
+   "means": [
+    98.27,
+    99.46
+   ],
+   "spread": 1.19
+  },
+  {
+   "oil": "SWVO",
+   "ratio": 6,
+   "T": 60,
+   "t": 80,
+   "tables": [
+    "9/B.3",
+    "10/B.3"
+   ],
+   "means": [
+    98.49,
+    99.51
+   ],
+   "spread": 1.02
+  },
+  {
+   "oil": "JCO",
+   "ratio": 8,
+   "T": 60,
+   "t": 120,
+   "tables": [
+    "8/B.2",
+    "9/B.3",
+    "10/B.3"
+   ],
+   "means": [
+    94.56,
+    94.57,
+    94.57
+   ],
+   "spread": 0.01
+  },
+  {
+   "oil": "JCO",
+   "ratio": 6,
+   "T": 60,
+   "t": 120,
+   "tables": [
+    "7/B.1",
+    "8/B.2"
+   ],
+   "means": [
+    90.3,
+    86.72
+   ],
+   "spread": 3.58
+  }
+ ],
+ "neutralisation_1wt": {
+  "BFVO": {
+   "FFA_mmol": 0.79,
+   "K2CO3_1g_mmol": 7.24,
+   "fraction_consumed": 0.109
+  },
+  "BWVO": {
+   "FFA_mmol": 1.81,
+   "K2CO3_1g_mmol": 7.24,
+   "fraction_consumed": 0.251
+  },
+  "JCO": {
+   "FFA_mmol": 4.64,
+   "K2CO3_1g_mmol": 7.24,
+   "fraction_consumed": 0.642
+  }
+ },
+ "csv_sha1": {
+  "boakye2013_yield_points.csv": "381dc2ac1c10125b21a02707799f5f90fa19e316",
+  "boakye2013_yield_replicates.csv": "5538db7df07ca5c542dd95166c955120a92847b0"
+ }
+}
