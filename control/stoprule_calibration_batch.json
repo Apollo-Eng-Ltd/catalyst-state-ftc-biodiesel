@@ -1,0 +1,9 @@
+{
+ "delta0": 0.01454738148483914,
+ "delta1": 0.019413762335324658,
+ "n0": 634,
+ "n1": 320,
+ "split": "cl_test_interp",
+ "estimator": "est_data_cl",
+ "score": "max error per batch in the stop region"
+}

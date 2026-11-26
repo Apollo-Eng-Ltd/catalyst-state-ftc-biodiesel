@@ -1,0 +1,55 @@
+{
+ "mcnemar": {
+  "FT-NMPC-b vs PID-35": {
+   "better": 8,
+   "worse": 1,
+   "p": 0.0390625
+  },
+  "FT-NMPC-b vs PID-60": {
+   "better": 13,
+   "worse": 1,
+   "p": 0.0018310546875
+  },
+  "FT-NMPC-b vs NMPC-nom-b": {
+   "better": 5,
+   "worse": 0,
+   "p": 0.0625
+  },
+  "FT-NMPC vs NMPC-nom": {
+   "better": 5,
+   "worse": 0,
+   "p": 0.0625
+  },
+  "FT-NMPC vs PID-35": {
+   "better": 8,
+   "worse": 1,
+   "p": 0.0390625
+  }
+ },
+ "bootstrap_ci": {
+  "FT-NMPC": [
+   0.896,
+   0.99
+  ],
+  "FT-NMPC-b": [
+   0.896,
+   0.99
+  ],
+  "NMPC-nom": [
+   0.833,
+   0.948
+  ],
+  "NMPC-nom-b": [
+   0.833,
+   0.948
+  ],
+  "PID-35": [
+   0.802,
+   0.938
+  ],
+  "PID-60": [
+   0.75,
+   0.896
+  ]
+ }
+}

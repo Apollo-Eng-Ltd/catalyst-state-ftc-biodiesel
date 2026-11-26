@@ -1,0 +1,98 @@
+{
+ "normal | none (as run)": {
+  "PID35_XE": 0.9686502304728151,
+  "PID35_Tpeak": 62.92034723987979,
+  "FT_XE": 0.9786434473772718,
+  "FT_t": 30.0,
+  "FT_Tpeak": 64.06771701878046,
+  "FT_onspec": true
+ },
+ "normal | rN,rSE -57.3": {
+  "PID35_XE": 0.9687526192777409,
+  "PID35_Tpeak": 63.06148899620587,
+  "FT_XE": 0.9761317968375961,
+  "FT_t": 25.0,
+  "FT_Tpeak": 64.47778156075526,
+  "FT_onspec": true
+ },
+ "normal | all side -57.3 (worst)": {
+  "PID35_XE": 0.968849991017583,
+  "PID35_Tpeak": 63.24089386152542,
+  "FT_XE": 0.9761165393021741,
+  "FT_t": 25.0,
+  "FT_Tpeak": 64.77680669661265,
+  "FT_onspec": true
+ },
+ "degraded_oil | none (as run)": {
+  "PID35_XE": 0.9188335475440748,
+  "PID35_Tpeak": 62.82619639280955,
+  "FT_XE": 0.9650672001743164,
+  "FT_t": 65.0,
+  "FT_Tpeak": 63.79378966768127,
+  "FT_onspec": true
+ },
+ "degraded_oil | rN,rSE -57.3": {
+  "PID35_XE": 0.9191362962050975,
+  "PID35_Tpeak": 62.9075290569686,
+  "FT_XE": 0.9634334538017579,
+  "FT_t": 45.0,
+  "FT_Tpeak": 64.23794228888323,
+  "FT_onspec": false
+ },
+ "degraded_oil | all side -57.3 (worst)": {
+  "PID35_XE": 0.9194056678872616,
+  "PID35_Tpeak": 63.04298012742646,
+  "FT_XE": 0.9554574232191537,
+  "FT_t": 35.0,
+  "FT_Tpeak": 64.80251465455251,
+  "FT_onspec": false
+ },
+ "water_ingress | none (as run)": {
+  "PID35_XE": 0.9069587145921258,
+  "PID35_Tpeak": 62.92034723987979,
+  "FT_XE": 0.937398953668286,
+  "FT_t": 30.0,
+  "FT_Tpeak": 64.03489388309492,
+  "FT_onspec": false
+ },
+ "water_ingress | rN,rSE -57.3": {
+  "PID35_XE": 0.907331910054652,
+  "PID35_Tpeak": 63.06148899620587,
+  "FT_XE": 0.9480043138471164,
+  "FT_t": 25.0,
+  "FT_Tpeak": 64.50188934769511,
+  "FT_onspec": false
+ },
+ "water_ingress | all side -57.3 (worst)": {
+  "PID35_XE": 0.9082809619495554,
+  "PID35_Tpeak": 63.24089386152542,
+  "FT_XE": 0.949285865109352,
+  "FT_t": 25.0,
+  "FT_Tpeak": 65.33250558013253,
+  "FT_onspec": false
+ },
+ "methanol_loss | none (as run)": {
+  "PID35_XE": 0.9563143943947262,
+  "PID35_Tpeak": 62.92034723987979,
+  "FT_XE": 0.9703452767471678,
+  "FT_t": 25.0,
+  "FT_Tpeak": 64.04493228784997,
+  "FT_onspec": true
+ },
+ "methanol_loss | rN,rSE -57.3": {
+  "PID35_XE": 0.9565057219676746,
+  "PID35_Tpeak": 63.06148899620587,
+  "FT_XE": 0.9706335434232752,
+  "FT_t": 25.0,
+  "FT_Tpeak": 64.47139591765927,
+  "FT_onspec": true
+ },
+ "methanol_loss | all side -57.3 (worst)": {
+  "PID35_XE": 0.9566956885373489,
+  "PID35_Tpeak": 63.24089386152542,
+  "FT_XE": 0.9650342161808414,
+  "FT_t": 20.0,
+  "FT_Tpeak": 64.77507431307413,
+  "FT_onspec": true
+ }
+}

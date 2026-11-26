@@ -1,0 +1,41 @@
+{
+ "PID-35": {
+  "n": 240,
+  "on_spec_base": 0.8666666666666667,
+  "on_spec_sideheat": 0.8666666666666667,
+  "XE_base": 97.7155210950139,
+  "XE_side": 97.72104519947277,
+  "t_base": 35.0,
+  "t_side": 35.0,
+  "Tpeak_base": 63.01247247654478,
+  "Tpeak_side": 63.12620662316204,
+  "Tpeak_max_side": 64.60343342978729,
+  "Tviol_side": 0,
+  "Tviol_base": 0,
+  "gained": 0,
+  "lost": 0,
+  "p": 1.0
+ },
+ "FT-NMPC-v2": {
+  "n": 240,
+  "on_spec_base": 0.9583333333333334,
+  "on_spec_sideheat": 0.9416666666666667,
+  "XE_base": 98.3755117785812,
+  "XE_side": 98.25859355077536,
+  "t_base": 26.145833333333332,
+  "t_side": 24.104166666666668,
+  "Tpeak_base": 62.99291785861878,
+  "Tpeak_side": 63.2455997447921,
+  "Tpeak_max_side": 65.23528251253083,
+  "Tviol_side": 1,
+  "Tviol_base": 0,
+  "gained": 1,
+  "lost": 5,
+  "p": 0.21875
+ },
+ "FTv2_vs_PID35_sideheat": {
+  "better": 18,
+  "worse": 0,
+  "p": 7.62939453125e-06
+ }
+}
